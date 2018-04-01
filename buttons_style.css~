@@ -1,0 +1,74 @@
+.btn-group .butt1 {
+    background-image: url("./buttons/Play.png");
+    background-size: 60px 60px;
+    border-radius: 12px;
+    color: white;
+    padding: 29px 27px;
+    display: inline-block;
+    cursor: pointer;
+    float: center;
+}
+
+.btn-group .butt2 {
+    background-image: url("./buttons/Stop.png");
+    background-size: 60px 60px;
+    border-radius: 12px;
+    color: white;
+    padding: 29px 27px;
+    display: inline-block;
+    cursor: pointer;
+    float: center;
+}
+.btn-group .butt3 {
+    background-image: url("./buttons/For_b.png");
+    background-size: 60px 60px;
+    border-radius: 12px;
+    color: white;
+    padding: 29px 27px;
+    display: inline-block;
+    cursor: pointer;
+    float: center;
+}
+.btn-group .butt4 {
+    background-image: url("./buttons/For_f.png");
+    background-size: 60px 60px;
+    border-radius: 12px;
+    color: white;
+    padding: 29px 27px;
+    display: inline-block;
+    cursor: pointer;
+    float: center;
+}
+.btn-group .butt1:hover {
+	opacity: 0.7;
+}
+.btn-group .butt2:hover {
+	opacity: 0.7;
+}
+.btn-group .butt3:hover {
+	opacity: 0.7;
+}
+.btn-group .butt4:hover {
+	opacity: 0.7;
+}
+
+.btn-group .butt1:active {
+	opcity: 0.7;
+	box-shadow: 0 5px #666;
+	transform: translateY(-2px);
+}
+.btn-group .butt2:active {
+	opcity: 0.7;
+	box-shadow: 0 5px #666;
+	transform: translateY(-2px);
+}
+.btn-group .butt3:active {
+	opcity: 0.7;
+	box-shadow: 0 5px #666;
+	transform: translateY(-2px);
+}
+.btn-group .butt4:active {
+	opcity: 0.7;
+	box-shadow: 0 5px #666;
+	transform: translateY(-2px);
+}

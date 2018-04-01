@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="buttons_style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<style>
+		#myButtons {
+			margin-left: 40%;
+			display: none;
+		}
+		
+		#compButtons {
+			margin-left: 40%;
+			display: none;
+		}
+		
+		#forKids {
+			margin-left: 42.5%;
+			display: none;
+		}
+		#forHosp {
+			margin-left: 41%;
+			display: none;
+		}
+	</style>
+</head>
+	<body>
+	<br>
+	<h1 class="header">
+		Here is a few types of buttons for different contributors<br/>
+		Use Show/Hide buttons for observing styles
+	</h1>
+	<div class="showHideMyButtCont">
+		<input id="showHideMyButt" type="button" value="Show" onclick="showButtons('0')"></input>
+	</div>
+	
+	<br/>
+	
+	<div id="myButtons">	
+		<input class="myButt" type="image" src="./fo_me/For_b.png" onmousedown="this.src='./on_act/fo_me/For_b.png'" onmouseup="this.src='./fo_me/For_b.png'" width="48" height="48">
+		<input class="myButt" type="image" src="./fo_me/Stop.png" onmousedown="this.src='./on_act/fo_me/Stop.png'" onmouseup="this.src='./fo_me/Stop.png'" width="48" height="48" >
+		<input class="myButt" type="image" src="./fo_me/Pause.png" onmousedown="this.src='./on_act/fo_me/Pause.png'" onmouseup="this.src='./fo_me/Pause.png'" width="48" height="48" >
+		<input class="myButt" type="image" src="./fo_me/Play.png" onmousedown="this.src='./on_act/fo_me/Play.png'" onmouseup="this.src='./fo_me/Play.png'" width="48" height="48" >
+		<input class="myButt" type="image" src="./fo_me/For_f.png" onmousedown="this.src='./on_act/fo_me/For_f.png'" onmouseup="this.src='./fo_me/For_f.png'" width="48" height="48">
+		<p style="margin-left:10%">Fom my site</p>
+	</div>
+	
+	<br/>
+	
+	<div class="showHideCompButtonsCont">
+		<input id="showHideCompButtons" type="button" value="Show" onclick="showButtons('1')"></input>
+	</div>
+	
+	<br/>
+	
+	<div id="compButtons">
+		<input class="comButt" type="image" src="./comp/for_b.png" onmousedown="this.src='./on_act/comp/for_b.png'" onmouseup="this.src='./comp/for_b.png'" width="48" height="48">
+		<input class="comButt" type="image" src="./comp/Stop.png" onmousedown="this.src='./on_act/comp/Stop.png'" onmouseup="this.src='./comp/Stop.png'" width="48" height="48" >
+		<input class="comButt" type="image" src="./comp/Pause.png" onmousedown="this.src='./on_act/comp/Pause.png'" onmouseup="this.src='./comp/Pause.png'" width="48" height="48">
+		<input class="comButt" type="image" src="./comp/Play.png" onmousedown="this.src='./on_act/comp/Play.png'" onmouseup="this.src='./comp/Play.png'" width="48" height="48">
+		<input class="comButt" type="image" src="./comp/for_f.png" onmousedown="this.src='./on_act/comp/for_f.png'" onmouseup="this.src='./comp/for_f.png'" width="48" height="48">
+		<p style="margin-left:9%">Fom company</p>
+	</div>
+	
+	<br/>
+	
+	<div class="showHideForKidsCont">
+		<input id="showHideForKids" type="button" value="Show" onclick="showButtons('2')"></input>
+	</div>
+	
+	<br/>
+	
+	<div id="forKids">
+		<input class="kidButt" type="image" src="./for_kids/for_b.png" onmousedown="this.src='./on_act/for_kids/for_b.png'" onmouseup="this.src='./for_kids/for_b.png'" width="36" height="36">
+		<input class="kidButt" type="image" src="./for_kids/Stop.png" onmousedown="this.src='./on_act/for_kids/Stop.png'" onmouseup="this.src='./for_kids/Stop.png'" width="48" height="48">
+		<input class="kidButt" type="image" src="./for_kids/Play_Pause_1.png" onmousedown="this.src='./on_act/for_kids/Play_Pause_1.png'" onmouseup="this.src='./for_kids/Play_Pause_1.png'" width="48" height="48">
+		<input class="kidButt" type="image" src="./for_kids/for_f.png" onmousedown="this.src='./on_act/for_kids/for_f.png'" onmouseup="this.src='./for_kids/for_f.png'" width="36" height="36">
+		<p style="margin-left:8%">Fom kids</p>
+	</div>
+	
+	<br/>
+	
+	<div class="showHideForHospCont">
+		<input id="showHideForHosp" type="button" value="Show" onclick="showButtons('3')"></input>
+	</div>
+	
+	<br>
+	
+	<div id="forHosp">
+		<input class="hospButt" type="image" src="./hosp/Hosp_for_b.png" onmousedown="this.src='./on_act/hosp/Hosp_for_b.png'" onmouseup="this.src='./hosp/Hosp_for_b.png'" width="48" height="71">
+		<input class="hospButt" type="image" src="./hosp/Hosp_stop.png" onmousedown="this.src='./on_act/hosp/Hosp_stop.png'" onmouseup="this.src='./hosp/Hosp_stop.png'" width="48" height="71">
+		<input class="hospButt" type="image" src="./hosp/Hosp_pause.png" onmousedown="this.src='./on_act/hosp/Hosp_pause.png'" onmouseup="this.src='./hosp/Hosp_pause.png'" width="48" height="71">
+		<input class="hospButt" type="image" src="./hosp/Hosp_play.png" onmousedown="this.src='./on_act/hosp/Hosp_play.png'" onmouseup="this.src='./hosp/Hosp_play.png'" width="48" height="71">
+		<input class="hospButt" type="image" src="./hosp/Hosp_for_f.png" onmousedown="this.src='./on_act/hosp/Hosp_for_f.png'" onmouseup="this.src='./hosp/Hosp_for_f.png'" width="48" height="71">
+		<p style="margin-left:10%">Fom hospital</p>
+	</div>
+	
+	<br/>
+	</body>
+	<script>
+	var conditionOfBut = {};
+	for(var i = 0; i < 4; i++){
+		conditionOfBut[i] = true;
+	}
+	
+	function showButtons(idOfButtons){
+		var id = idOfButtons;
+
+		//var typesOfButtons = ["myButtons", "compButtons", "forKids", "hosp"];
+		console.log(document.getElementById(this.id))
+		console.log(id)
+
+		switch (id){
+			case '0':
+				if (conditionOfBut[id]){
+					document.getElementById("myButtons").style.display = "block";
+					document.getElementById('showHideMyButt').value = "Hide";
+					conditionOfBut[id] = false;
+				}else{
+					document.getElementById("myButtons").style.display = "none";
+					document.getElementById('showHideMyButt').value = "Show";
+					conditionOfBut[id] = true;
+				}
+				break;
+				
+			case '1':
+				if(conditionOfBut[id]){
+					document.getElementById("compButtons").style.display = "block";
+					document.getElementById('showHideCompButtons').value = "Hide";
+ 					conditionOfBut[id] = false;
+				}else{
+					document.getElementById("compButtons").style.display = "none";
+					document.getElementById('showHideCompButtons').value = "Show";
+					conditionOfBut[id] = true;
+				}
+				break;
+				
+			case '2':
+				if(conditionOfBut[id]){
+					document.getElementById("forKids").style.display = "block";
+					document.getElementById('showHideForKids').value = "Hide";
+ 					conditionOfBut[id] = false;
+				}else{
+					document.getElementById("forKids").style.display = "none";
+					document.getElementById('showHideForKids').value = "Show";
+					conditionOfBut[id] = true;
+				}
+				break;
+			
+			case '3':
+				if(conditionOfBut[id]){
+					document.getElementById("forHosp").style.display = "block";
+					document.getElementById('showHideForHosp').value = "Hide";
+ 					conditionOfBut[id] = false;
+				}else{
+					document.getElementById("forHosp").style.display = "none";
+					document.getElementById('showHideForHosp').value = "Show";
+					conditionOfBut[id] = true;
+				}
+				break;
+		}
+	}
+	</script>
+</html>

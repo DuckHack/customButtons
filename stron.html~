@@ -1,0 +1,16 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="buttons_style.css">
+</head>
+	<body>	
+	<div class="btn-group">
+		<button class="butt"></button>
+		<button class="butt"></button>
+		<button class="butt"></button>
+		<button class="butt"></button>
+	</div>
+	<div class="panel">
+		<p></p>	
+	</div>
+	</body>
+</html>
