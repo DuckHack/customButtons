@@ -4,19 +4,26 @@ body {
 
 .showHideMyButtCont, .showHideCompButtonsCont, .showHideForKidsCont, .showHideForHospCont{
 	height: 30px;
+	max-width: 500px;
+	margin: auto;
 	background-color: black;
 }
 
 #showHideMyButt, #showHideCompButtons, #showHideForKids, #showHideForHosp {
 	background-color: black;
 	color: white;
-	margin-left: 45%;
+	display: block;
+    margin: 0 auto;
 	width: 130px;
 	height: 30px;
 	border: none;
 }
 #showHideMyButt:hover, #showHideCompButtons:hover, #showHideForKids:hover, #showHideForHosp:hover{
 	background-color: gray;
+}
+
+p{
+	text-align: center;
 }
 
 .myButt:hover, .comButt:hover, .kidButt:hover, .hospButt:hover{
@@ -30,7 +37,7 @@ body {
 }
 */
 .header{
-	margin-left: 25%;
+	text-align: center;
 }
 
 
